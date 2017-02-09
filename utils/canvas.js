@@ -12,7 +12,7 @@ class Canvas {
         this.clearColor = opts.color || 'white';
         this.transparent = opts.transparent || false;
 
-        if(!this.transparent)this.canvas.style.background = this.clearColor;
+        if(!this.transparent) this.canvas.style.background = this.clearColor;
         document.body.appendChild(this.canvas);
     }
 

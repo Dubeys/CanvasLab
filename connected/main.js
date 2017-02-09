@@ -1,4 +1,4 @@
-class Particle {
+sclass Particle {
     constructor(x,y,radius,dx,dy){
         this.size = radius || 5;
         this.x = x || 0;
